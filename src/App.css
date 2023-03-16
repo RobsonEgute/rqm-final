@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+.quotebk {
+  max-height: 700px; 
+  width: 60%;    
+  border: 2px solid black;
+  margin: auto;
+  font-size: 30px;
+  display: block; 
+  background-color: whitesmoke;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 10px;
+  transition: 1500ms;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  transition: 1500ms;
+  margin: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px 20px 20px 20px;
+  font-size: 20px;
   color: white;
+  padding: 3px 20px 3px 20px;
+  transition: 1500ms;
 }
-
-.App-link {
-  color: #61dafb;
+.author {
+  margin-left: 65%;
+  margin-top: 20px;
+  font-size: 20px;
+  padding-right: 35px;
+  margin-right: 30px;
+  margin-bottom: -40px;
+  transition: 1500ms;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.quotes {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  /*padding: 0px 50px 0px 50px;*/
+  text-align: center;
+ /* margin: 0px 20px 0px 20px;*/
+ transition: 1500ms;
+}
+.fa {
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.socialContainer {
+  padding: 0px 50px 0px 100px;
+  display: inline-block;
+  margin-top: -90px;
+  margin-left: -380px;
+}
+.quoteContainer {
+  width: 500px;
+  margin: auto;
+  text-align: justify;
+  transition: 1500ms;
+}
+.reference {
+  position: absolute;
+  display: block;
+  color: white;
+  top: 82%;
+  right: 46.3%;
+}
+p {
+  transition: 1500ms;
+}
+q {
+  transition: 1500ms;
+}
+a {
+  text-decoration: none;
+  text-decoration-color: none;
 }
